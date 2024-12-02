@@ -1,0 +1,99 @@
+:root {
+  --primary: #0e762f;
+  --secondary: #ef5568;
+}
+
+/* backgound color */
+.primary {
+  background-color: var(--primary);
+  height: 100vh;
+}
+
+.secondary {
+  background-color: var(--secondary);
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.text-white {
+  color: white;
+}
+.text-black {
+  color: black;
+}
+.primary-text {
+  color: var(--primary);
+}
+.secondary-text {
+  color: var(--secondary);
+}
+
+.primary-border {
+  border: 1px solid var(--primary);
+}
+.secondary-border {
+  border: 1px solid var(--secondary);
+}
+
+.text-small {
+  font-size: 18px;
+}
+.text-medium {
+  font-size: 24px;
+}
+.text-large {
+  font-size: 36px;
+}
+.h-screen {
+  height: 100vh;
+}
+.w-screen {
+  width: 100vw;
+}
+.w-400 {
+  width: 400px;
+}
+
+/* card   */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+.card-sm {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+}
+
+/* html element */
+
+input {
+  padding: 10px;
+  border-radius: 0;
+  border: 2px solid #ccc;
+  height: 40px;
+}
+input:focus {
+  border: 2px solid var(--primary) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+button {
+  border-radius: 0;
+  border: none !important;
+  height: 40px !important;
+}
+
+/* overide antd */
+
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
